@@ -83,23 +83,24 @@ http://ec2-15-185-146-219.me-south-1.compute.amazonaws.com/
 
 ## How to run the program locally
 -	clone project
-'''clone git : git clone https://github.com/MujtabaMohsin/Foodbox'''
+```clone git : git clone https://github.com/MujtabaMohsin/Foodbox```
 
 -	Import the “\Back-End\foodbox\database\foodbox.sql” file to your database administration tool.
 -	Go to “\Back-End\foodbox\src\main\resources\application.properties” file, open it.
 -	Edit some values of the database’ properties to be suit to your database administration tool.
 -	Run the back-end project as a maven project:
-'''cd to your project “Back-end\foodbox”'''
-'''mvn compile'''
-'''mvn exec:java -Dexec.mainClass=com.simplilearn.foodbox'''
+```cd to your project “Back-end\foodbox”```
+```mvn compile```
+```mvn exec:java -Dexec.mainClass=com.simplilearn.foodbox```
 -	Open another command line for the front-end part.
 -	cd to your project “Front-end-end\foodbox”
 -	install the following:
-'''npm install --save-dev'''
-'''npm install @angular/localize --save'''
-'''npm install bootstrap --save'''
-'''npm install font-awesome –save'''
+```npm install --save-dev```
+```npm install @angular/localize --save```
+```npm install bootstrap --save```
+```npm install font-awesome –save```
 -	Run using ng serve –open
 -	It would be displayed in http://localhost:4200/
+
 
 
