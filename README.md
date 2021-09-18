@@ -95,12 +95,22 @@ http://ec2-15-185-146-219.me-south-1.compute.amazonaws.com/
 -	Open another command line for the front-end part.
 -	cd to your project “Front-end-end\foodbox”
 -	install the following:
+-	
 ```npm install --save-dev```
+
 ```npm install @angular/localize --save```
+
 ```npm install bootstrap --save```
+
 ```npm install font-awesome –save```
+
 -	Run using ng serve –open
 -	It would be displayed in http://localhost:4200/
 
 
+## Screenshots
+
+![screenshot_1133](https://user-images.githubusercontent.com/64940728/133873673-2cc4f2a3-00c9-4484-839b-969534a0f57c.jpg)
+
+other screenshots can be found in the Documentation & Screenshots file
 
